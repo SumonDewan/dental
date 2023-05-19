@@ -1,0 +1,137 @@
+header{
+    padding: 15px 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, u{
+        margin: 0;
+        padding: 0;
+    }
+    .info{
+    
+display: flex;
+    
+text-align: center;
+    
+margin-left: 30px;
+    }
+    .icon{
+    color: #f69165;
+    font-size: 20px;
+    margin-right: 8px;
+    }
+    .content{
+    
+    }
+    .content h4{
+        
+font-size: 15px;
+        
+padding: 0;
+    }
+    .content p{
+        
+font-size: 14px;
+    }
+
+
+
+.main_menu{
+
+background: #00cce1;
+
+}
+ .btn-appoint{
+
+background: #f69165;
+
+text-transform: uppercase;
+
+font-weight: 400;
+
+padding: 15px 20px;
+
+color: #fff;
+clip-path: polygon(10% 0, 100% 0%, 88% 100%, 0% 100%);
+}
+.nav-link{
+    
+color: #fff;
+    
+text-transform: uppercase;
+position: relative;
+padding: 0 !important;
+}
+
+
+
+.btn-appoint i{
+    
+margin-right: 5px;
+}
+.btn-appoint:hover{
+    background-color: #f69165;
+}
+.nav-link::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color:#f69165 ;
+    transition: .4s all ease-in-out;
+    
+}
+.nav-link::before:hover{
+width: 100%;
+
+}
+.nav-item{
+    padding: 0 15px;
+}
+
+.banner{
+    background-image: url(../images/cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: ;
+}
+.banner h2{
+    
+color: #00cce1;
+    
+font-size: 36px;
+    
+display: inline-block;
+}
+.banner h1 {
+    
+color: #f69165;
+    
+font-size: 60px;
+    
+margin-top: 10px;
+    
+display: inline-block;
+}
+.btn-learn{
+
+background: #00cce1;
+
+color: #fff;
+
+margin-top: 5px;
+}
+.btn-book{
+
+background: #f69165;
+
+color: #fff;
+
+margin-top: 5px;
+}
+.height{
+    min-height: 80vh;
+    align-items: center;
+}
